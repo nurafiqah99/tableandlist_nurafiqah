@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table List</title>
+<style>
+table, th, td 
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: arial;
+}
+</style>
+<body>
+    <table style="1" cellspacing="0" width="30%">
+    <table style="width:50%">
+
+  <tr>
+    <th width="5%">Bil.</th>
+    <th width="30%">Book</th> 
+    <th width="10%">Page</th>   
+  </tr>
+  <tr>  
+        <td>1.</td>
+      <td>
+ <ul style="list-style-type: disc;">
+        <li>Visit Malaysia</li>
+</ul>
+    <ul>
+<ul style="list-style-type: circle;">
+        <li>Kl Version</li>
+        <li>Kedah</li>
+</ul>
+    </ul>
+<ul style="list-style-type: disc;">    
+        <li>Lost in Malaysia</li>
+        <li>Malaysian Food</li>
+</ul>
+      </td>
+        <td align="center">26<br>99<br>21<br>36
+        </td></tr>
+</ul>
+
+  <tr>
+        <td>2.</td>
+    <td>
+<ol style="list-style-type: lower-roman;">
+         <li>Fasting</li><li>Food Baazar in Malaysia</li>
+</ol>
+    </td>
+         <td align="center">26<br>311</br></td>
+  </tr>
+</table>
+</body>
+</html>
